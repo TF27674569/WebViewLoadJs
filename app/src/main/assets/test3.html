@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="GBK">
+      <title>Carson_Ho</title>
+     <script>
+
+    function callAndroid(){
+        var result=prompt("js://webview?arg1=111&arg2=222");
+        alert("demo " + result);
+    }
+      </script>
+
+</head>
+
+<!--点击按钮则调用callAndroid  -->
+   <body>
+     <button type="button" id="button1" onclick="callAndroid()" style="width: 200px; height: 80px;">点击调用Android代码</button>
+   </body>
+</html>
